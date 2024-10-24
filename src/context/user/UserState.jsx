@@ -14,7 +14,7 @@ const isPasswordValid = (password) => {
 
 const UserProvider = ({ children }) => {
   // URL:
-  let base = "https://todoapp-hcz3.vercel.app/";
+  let base = "https://todobackend-fl1b.onrender.com";
   let path = "/user/";
   let url = new URL(path, base).href;
 
