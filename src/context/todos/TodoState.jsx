@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const TodoProvider = ({ children }) => {
   // URL:
-  let base = "http://localhost:5500";
+  let base = "https://todobackend-fl1b.onrender.com";
   let path = "/todos/";
   let url = new URL(path, base).href;
 
